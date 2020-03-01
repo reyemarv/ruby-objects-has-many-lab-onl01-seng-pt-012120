@@ -19,4 +19,8 @@ def add_song_by_name(song)
   add_song(new_song)
 end 
 
+def self.song_count
+  song.length 
+end 
+
 end 
