@@ -15,8 +15,7 @@ end
 
 def artist_name
   when @name == name 
-    self.artist.name 
-  end 
+    self.artist.name
 end 
   
 end 
