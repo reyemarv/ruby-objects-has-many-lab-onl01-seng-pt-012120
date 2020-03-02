@@ -14,8 +14,9 @@ def self.all
 end 
 
 def artist_name
-  if @name == name 
+  unless @name == name 
     self.artist.name
+    then nill
   end 
 end 
   
