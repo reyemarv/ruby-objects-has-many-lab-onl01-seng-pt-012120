@@ -17,7 +17,6 @@ def artist_name
   unless @name == name 
     self.artist.name
     then nill
-  end 
 end 
   
 end 
